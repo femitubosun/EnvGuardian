@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "envguardian"
+version = "1.0.0"
+description = "A lightweight environment variables validator in python"
+authors = ["Femi Olatubosun <femi@zerocomplex.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
